@@ -91,21 +91,21 @@ int main() {
     printf("Running tests...\n");
 
     test_mm_malloc();
-    printf("test_mm_malloc passed.\n");
+    printf("test_mm_malloc:  passed.\n");
 
     test_mm_free();
-    printf("test_mm_free passed.\n");
+    printf("test_mm_free  :  passed.\n");
 
     test_mm_calloc();
-    printf("test_mm_calloc passed.\n");
+    printf("test_mm_calloc:  passed.\n");
 
     test_mm_realloc();
-    printf("test_mm_realloc passed.\n");
+    printf("test_mm_realloc: passed.\n");
 
     test_mm_alloca();
-    printf("test_mm_alloca passed.\n");
+    printf("test_mm_alloca:  passed.\n");
 
-    printf("All tests passed!\n");
+    printf("All tests is  :  passed!\n");
 
     return 0;
 }
